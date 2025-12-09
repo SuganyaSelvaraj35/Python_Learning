@@ -14,7 +14,7 @@ def test_listbyobj_api(): #Defining a function, test_ is automatically treated a
             response_content = json.load(f) #Parses JSON, It interprets the text as JSON format
             print(response_content)
 
-            assert response_content == actual_response #COmpare the actual vs the expected
+            assert response_content == actual_response #Compare the actual vs the expected
 
 
 
